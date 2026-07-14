@@ -1,2 +1,6 @@
-reviews.csv
-product_info.csv
+# datasets
+data/raw/
+data/processed/
+
+# or
+*.csv
