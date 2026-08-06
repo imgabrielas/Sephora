@@ -15,11 +15,9 @@ Sephora/
 │
 ├── 01_exploratory_data_analysis.ipynb
 ├── 02_product_success_prediction.ipynb
-├── 03_content_based_recommendation.ipynb
-├── 04_review_sentiment_analysis.ipynb
-├── 05_product_clustering.ipynb
-├── 06_price_vs_rating_regression.ipynb
-├── 07_hidden_gems_analysis.ipynb        (bonus)
+├── 03_product_clustering.ipynb
+├── 04_price_vs_rating_regression.ipynb
+├── 05_hidden_gems_analysis.ipynb        (bonus)
 │
 ├── Project-Outline.md
 ├── requirements.txt
@@ -30,15 +28,13 @@ Sephora/
 
 ## Notebooks
 
-| # | Notebook | Task | Business Question |
-|---|----------|------|--------------------|
+| #  | Notebook | Task | Business Question |
+|----|----------|------|--------------------|
 | 01 | Exploratory Data Analysis | EDA | What does the products & reviews data actually look like? |
 | 02 | Product Success Prediction | Classification | Can we predict whether a product will be highly rated? |
-| 03 | Content-Based Recommendation | Recommender System | Which products are most similar to a given product? |
-| 04 | Review Sentiment Analysis | NLP | Can ratings be predicted from review text? |
-| 05 | Product Clustering | Unsupervised Learning | Can products be grouped into meaningful segments? |
-| 06 | Price vs. Rating Regression | Regression | Does paying more lead to higher satisfaction? |
-| 07 | Hidden Gems Analysis (bonus) | Business Analytics | Which underrated products deserve more visibility? |
+| 03 | Product Clustering | Unsupervised Learning | Can products be grouped into meaningful segments? |
+| 04 | Price vs. Rating Regression | Regression | Does paying more lead to higher satisfaction? |
+| 05 | Hidden Gems Analysis (bonus) | Business Analytics | Which underrated products deserve more visibility? |
 
 Full details for each notebook — objectives, candidate features, models, and evaluation metrics — are in [Project-Outline.md](Project-Outline.md).
 

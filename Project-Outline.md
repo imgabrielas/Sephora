@@ -8,8 +8,6 @@ The goal is to explore different areas of data science and machine learning, inc
 
 - Exploratory Data Analysis (EDA)
 - Classification
-- Recommendation Systems
-- Natural Language Processing (NLP)
 - Clustering
 - Regression
 - Business Analytics
@@ -30,16 +28,12 @@ sephora-analysis/
 ├── notebooks/
 │   ├── 01_exploratory_data_analysis.ipynb
 │   ├── 02_product_success_prediction.ipynb
-│   ├── 03_content_based_recommendation.ipynb
-│   ├── 04_review_sentiment_analysis.ipynb
-│   ├── 05_product_clustering.ipynb
-│   ├── 06_price_vs_rating_regression.ipynb
-│   └── 07_hidden_gems_analysis.ipynb (Bonus)
-│
-├── figures/
+│   ├── 03_product_clustering.ipynb
+│   ├── 04_price_vs_rating_regression.ipynb
+│   └── 05_hidden_gems_analysis.ipynb (Bonus)
 │
 ├── requirements.txt
-│
+├── Project-Outline.md
 └── README.md
 ```
 
