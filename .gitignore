@@ -5,6 +5,3 @@ data/processed/
 # or
 *.csv
 *.parquet
-
-# notebooks
-clustering.ipynb
