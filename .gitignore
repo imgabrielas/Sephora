@@ -5,3 +5,4 @@ data/processed/
 # or
 *.csv
 *.parquet
+analysis_demo.ipynb
