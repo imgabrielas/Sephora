@@ -18,6 +18,7 @@ Sephora/
 ├── 03_product_clustering.ipynb
 ├── 04_price_vs_rating_regression.ipynb
 ├── 05_hidden_gems_analysis.ipynb        (bonus)
+├── Hidden_gems_report.pdf                (report)
 │
 ├── Project-Outline.md
 ├── requirements.txt
@@ -37,6 +38,8 @@ Sephora/
 | 05 | Hidden Gems Analysis (bonus) | Business Analytics | Which underrated products deserve more visibility? |
 
 Full details for each notebook — objectives, candidate features, models, and evaluation metrics — are in [Project-Outline.md](Project-Outline.md).
+
+The Hidden Gems analysis is also written up as a standalone report: [Hidden_gems_report.pdf](Hidden_gems_report.pdf).
 
 Each notebook follows the same workflow: business problem → imports → data loading → cleaning/preprocessing → EDA → modeling → evaluation → business conclusions.
 
