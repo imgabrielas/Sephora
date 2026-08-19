@@ -18,7 +18,11 @@ Sephora/
 ├── 03_product_clustering.ipynb
 ├── 04_price_vs_rating_regression.ipynb
 ├── 05_hidden_gems_analysis.ipynb        (bonus)
-├── Hidden_gems_report.pdf                (report)
+│
+├── 01 EDA report.pdf
+├── 01 EDA report.pbix
+├── 05 Hidden Gems report.pdf
+├── 05 Hidden Gems report.pbix
 │
 ├── Project-Outline.md
 ├── requirements.txt
@@ -39,7 +43,7 @@ Sephora/
 
 Full details for each notebook — objectives, candidate features, models, and evaluation metrics — are in [Project-Outline.md](Project-Outline.md).
 
-The Hidden Gems analysis is also written up as a standalone report: [Hidden_gems_report.pdf](Hidden_gems_report.pdf).
+The EDA and Hidden Gems analyses are also written up as standalone Power BI reports: [01 EDA report.pdf](01%20EDA%20report.pdf) and [05 Hidden Gems report.pdf](05%20Hidden%20Gems%20report.pdf).
 
 Each notebook follows the same workflow: business problem → imports → data loading → cleaning/preprocessing → EDA → modeling → evaluation → business conclusions.
 

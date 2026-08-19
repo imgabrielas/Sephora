@@ -32,7 +32,10 @@ sephora-analysis/
 │   ├── 04_price_vs_rating_regression.ipynb
 │   └── 05_hidden_gems_analysis.ipynb (Bonus)
 │
-├── Hidden_gems_report.pdf (Power BI report)
+├── 01 EDA report.pdf (Power BI report)
+├── 01 EDA report.pbix
+├── 05 Hidden Gems report.pdf (Power BI report)
+├── 05 Hidden Gems report.pbix
 ├── requirements.txt
 ├── Project-Outline.md
 └── README.md
@@ -95,7 +98,13 @@ Each notebook follows the same workflow to ensure consistency throughout the pro
 
 Running the analysis is only half the job — insights only create value once they're communicated in a way stakeholders can act on. Notebooks are the right format for the analytical work itself, but they aren't built for sharing with a business audience.
 
-For the Hidden Gems analysis, the findings were rebuilt as a report in **Power BI** and exported to **[Hidden_gems_report.pdf](Hidden_gems_report.pdf)**, so the results are stakeholder-friendly and easy to distribute.
+| Notebook | PDF Report | Power BI File | Description |
+|---|---|---|---|
+| 01 - Exploratory Data Analysis | [01 EDA report.pdf](01%20EDA%20report.pdf) | [01 EDA report.pbix](01%20EDA%20report.pbix) | Dataset overview and key EDA insights across products and categories, packaged for stakeholders. |
+| 02 - Product Success Prediction | Work in Progress | Work in Progress | Work in Progress |
+| 03 - Product Clustering | Work in Progress | Work in Progress | Work in Progress |
+| 04 - Price vs Rating Regression | Work in Progress | Work in Progress | Work in Progress |
+| 05 - Hidden Gems Analysis | [05 Hidden Gems report.pdf](05%20Hidden%20Gems%20report.pdf) | [05 Hidden Gems report.pbix](05%20Hidden%20Gems%20report.pbix) | Highlights underrated, highly-rated products with low review volume as merchandising opportunities. |
 
 ---
 
