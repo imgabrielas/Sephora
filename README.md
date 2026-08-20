@@ -2,7 +2,7 @@
 
 **Status:** Ongoing Project
 
-A data science portfolio project built on the **Sephora Products & Reviews Dataset**. Rather than one large notebook, the work is split into **seven independent Jupyter notebooks**, each tackling a different business problem on the same underlying data — covering EDA, classification, recommendation systems, NLP, clustering, regression, and business analytics.
+A data science portfolio project built on the **Sephora Products & Reviews Dataset**. Rather than one large notebook, the work is split into **five independent Jupyter notebooks**, each tackling a different business problem on the same underlying data — covering EDA, classification, clustering, regression, and business analytics.
 
 ## Repository Structure
 
@@ -17,7 +17,7 @@ Sephora/
 ├── 02_product_success_prediction.ipynb
 ├── 03_product_clustering.ipynb
 ├── 04_price_vs_rating_regression.ipynb
-├── 05_hidden_gems_analysis.ipynb        (bonus)
+├── 05_hidden_gems_analysis.ipynb 
 │
 ├── 01 EDA report.pdf
 ├── 01 EDA report.pbix
@@ -29,7 +29,7 @@ Sephora/
 └── README.md
 ```
 
-> `data/` is git-ignored — download the dataset separately (see [Dataset](#dataset)) and place the CSVs there before running the notebooks.
+> `data/` is git-ignored — download the dataset separately and place the CSVs there before running the notebooks.
 
 ## Notebooks
 
@@ -42,15 +42,6 @@ Sephora/
 | 05 | Hidden Gems Analysis (bonus) | Business Analytics | Which underrated products deserve more visibility? |
 
 Full details for each notebook — objectives, candidate features, models, and evaluation metrics — are in [Project-Outline.md](Project-Outline.md).
-
-The EDA and Hidden Gems analyses are also written up as standalone Power BI reports: [01 EDA report.pdf](01%20EDA%20report.pdf) and [05 Hidden Gems report.pdf](05%20Hidden%20Gems%20report.pdf).
-
-Each notebook follows the same workflow: business problem → imports → data loading → cleaning/preprocessing → EDA → modeling → evaluation → business conclusions.
-
-## Dataset
-
-This project uses the [Sephora Products and Skincare Reviews dataset](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews) (product info + customer reviews). Download `product_info.csv` and `reviews.csv` and place them in `data/`.
-
 ## Setup
 
 ```bash
@@ -76,8 +67,4 @@ Running the analysis is only half the job — insights only create value once th
 
 ## Technologies
 
-Python, Pandas, NumPy, Matplotlib, Plotly, Scikit-learn, NLTK, Jupyter.
-
-## Learning Objectives
-
-This project is built to strengthen practical skills in data preprocessing, feature engineering, EDA, supervised and unsupervised learning, NLP, recommendation systems, regression, model evaluation, and business-oriented data storytelling — using a single, realistic dataset across a variety of real-world problem types.
+Python, Pandas, NumPy, Matplotlib, Plotly, Scikit-learn, Jupyter.

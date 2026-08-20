@@ -2,7 +2,7 @@
 
 **Status:** Ongoing Project
 
-This repository is an ongoing data science project built using the **Sephora Products & Reviews Dataset**. Instead of combining multiple machine learning tasks into a single large notebook, the project is organized into **six independent Jupyter notebooks**, each focusing on a different business problem while using the same dataset.
+This repository is an ongoing data science project built using the **Sephora Products & Reviews Dataset**. Instead of combining multiple machine learning tasks into a single large notebook, the project is organized into **five independent Jupyter notebooks**, each focusing on a different business problem while using the same dataset.
 
 The goal is to explore different areas of data science and machine learning, including:
 
@@ -10,7 +10,6 @@ The goal is to explore different areas of data science and machine learning, inc
 - Classification
 - Clustering
 - Regression
-- Business Analytics
 
 Each notebook is designed to be self-contained while following a consistent workflow and coding style.
 
@@ -47,50 +46,14 @@ sephora-analysis/
 
 Each notebook follows the same workflow to ensure consistency throughout the project.
 
-## 1. Business Problem
-
-- Define the business objective.
-- Explain why solving the problem is valuable.
-
-## 2. Import Libraries
-
-- Import required Python libraries.
-- Configure plotting style and random seeds if necessary.
-
-## 3. Load Dataset
-
-- Load the required data.
-- Inspect the dataset.
-
-## 4. Data Cleaning & Preprocessing
-
-- Handle missing values.
-- Remove duplicates.
-- Convert data types.
-- Perform feature engineering where needed.
-
-## 5. Exploratory Data Analysis
-
-- Explore variables relevant to the notebook.
-- Create visualizations.
-- Summarize key insights.
-
-## 6. Machine Learning
-
-- Prepare features.
-- Train one or more machine learning models.
-- Tune model parameters when appropriate.
-
-## 7. Model Evaluation
-
-- Evaluate performance using appropriate metrics.
-- Interpret the results.
-
-## 8. Business Conclusions
-
-- Summarize findings.
-- Discuss business implications.
-- Suggest future improvements.
+1. Business Problem
+2. Import Libraries
+3. Load Dataset
+4. Data Cleaning & Preprocessing
+5. Exploratory Data Analysis
+6. Machine Learning
+7. Model Evaluation
+8. Business Conclusions
 
 ---
 
