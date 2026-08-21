@@ -31,10 +31,12 @@ sephora-analysis/
 │   ├── 04_price_vs_rating_regression.ipynb
 │   └── 05_hidden_gems_analysis.ipynb (Bonus)
 │
-├── 01 EDA report.pdf (Power BI report)
-├── 01 EDA report.pbix
-├── 05 Hidden Gems report.pdf (Power BI report)
-├── 05 Hidden Gems report.pbix
+├── Report 01 EDA.pdf (Power BI report)
+├── Report 01 EDA.pbix
+├── Report 04 Product categories.pdf (Power BI report)
+├── Report 04 Product categories.pbix
+├── Report 05 Hidden Gems.pdf (Power BI report)
+├── Report 05 Hidden Gems.pbix
 ├── requirements.txt
 ├── Project-Outline.md
 └── README.md
@@ -63,11 +65,9 @@ Running the analysis is only half the job — insights only create value once th
 
 | Notebook | PDF Report | Power BI File | Description |
 |---|---|---|---|
-| 01 - Exploratory Data Analysis | [01 EDA report.pdf](01%20EDA%20report.pdf) | [01 EDA report.pbix](01%20EDA%20report.pbix) | Dataset overview and key EDA insights across products and categories, packaged for stakeholders. |
-| 02 - Product Success Prediction | Work in Progress | Work in Progress | Work in Progress |
-| 03 - Product Clustering | Work in Progress | Work in Progress | Work in Progress |
-| 04 - Price vs Rating Regression | Work in Progress | Work in Progress | Work in Progress |
-| 05 - Hidden Gems Analysis | [05 Hidden Gems report.pdf](05%20Hidden%20Gems%20report.pdf) | [05 Hidden Gems report.pbix](05%20Hidden%20Gems%20report.pbix) | Highlights underrated, highly-rated products with low review volume as merchandising opportunities. |
+| 01 - Exploratory Data Analysis | [Report 01 EDA.pdf](Report%2001%20EDA.pdf) | [Report 01 EDA.pbix](Report%2001%20EDA.pbix) | Dataset overview and key EDA insights across products and categories, packaged for stakeholders. |
+| 04 - Price vs Rating Regression | [Report 04 Product categories.pdf](Report%2004%20Product%20categories.pdf) | [Report 04 Product categories.pbix](Report%2004%20Product%20categories.pbix) | Category-level breakdown of pricing, ratings, and review volume across the product catalog. |
+| 05 - Hidden Gems Analysis | [Report 05 Hidden Gems.pdf](Report%2005%20Hidden%20Gems.pdf) | [Report 05 Hidden Gems.pbix](Report%2005%20Hidden%20Gems.pbix) | Highlights underrated, highly-rated products with low review volume as merchandising opportunities. |
 
 ---
 
