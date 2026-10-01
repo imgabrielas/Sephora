@@ -2,7 +2,7 @@
 
 **Status:** Ongoing Project
 
-A data science portfolio project built on the **Sephora Products & Reviews Dataset**. Rather than one large notebook, the work is split into **five independent Jupyter notebooks**, each tackling a different business problem on the same underlying data — covering EDA, classification, clustering, regression, and business analytics.
+A data science portfolio project built on the **Sephora Products & Reviews Dataset**. Rather than one large notebook, the work is split into **multiple Jupyter notebooks**, each tackling a different business problem on the same underlying data — covering EDA, classification, clustering, regression, business analytics, and an ongoing NLP/sentiment-analysis track.
 
 ## Repository Structure
 
@@ -17,7 +17,8 @@ Sephora/
 ├── 02_product_success_prediction.ipynb
 ├── 03_product_clustering.ipynb
 ├── 04_price_vs_rating_regression.ipynb
-├── 05_hidden_gems_analysis.ipynb 
+├── 05_hidden_gems_analysis.ipynb
+├── 06_sentiment_analysis.ipynb
 │
 ├── Report 01 EDA.pdf
 ├── Report 01 EDA.pbix
@@ -42,8 +43,24 @@ Sephora/
 | 03 | Product Clustering | Unsupervised Learning | Can products be grouped into meaningful segments? |
 | 04 | Price vs. Rating Regression | Regression | Does paying more lead to higher satisfaction? |
 | 05 | Hidden Gems Analysis (bonus) | Business Analytics | Which underrated products deserve more visibility? |
+| 06 | Sentiment Analysis (ongoing) | NLP / Text Mining | How do customer reviews express sentiment, and what themes drive positive or negative feedback? |
 
 Full details for each notebook — objectives, candidate features, models, and evaluation metrics — are in [Project-Outline.md](Project-Outline.md).
+
+## NLP & Sentiment Analysis (Ongoing)
+
+This project also includes an active text-analysis track focused on customer reviews. The goal is to move beyond numerical ratings and interpret the actual language used by shoppers when describing products. I plan to analyze review text using a combination of traditional and modern NLP techniques, with a focus on extracting sentiment, key themes, and actionable product insights.
+
+The intended workflow includes:
+
+- review text preprocessing with NLTK and spaCy
+- topic and phrase analysis using Gensim for unsupervised text modeling
+- sentiment classification using Hugging Face transformer models and classical NLP baselines
+- feature extraction and comparison across brands, categories, and product lines
+- business-oriented interpretation of positive and negative review themes
+
+This part of the project is intended to answer questions such as: Which products receive the strongest praise? What complaints recur most often? How do sentiment patterns differ across product categories and skincare concerns? These insights are expected to complement the structured product analytics by turning raw customer reviews into useful business intelligence.
+
 ## Setup
 
 ```bash
@@ -67,4 +84,4 @@ Running the analysis is only half the job — insights only create value once th
 
 ## Technologies
 
-Python, Pandas, NumPy, Matplotlib, Plotly, Scikit-learn, Jupyter.
+Python, Pandas, NumPy, Matplotlib, Plotly, Scikit-learn, Jupyter, spaCy, Gensim, NLTK, and Hugging Face Transformers.
