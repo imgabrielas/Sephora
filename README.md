@@ -9,30 +9,36 @@ A data science portfolio project built on the **Sephora Products & Reviews Datas
 ```text
 Sephora/
 │
+├── .git/
+├── .idea/
+├── .venv/
 ├── data/
-│   ├── product_info.csv
-│   └── reviews.csv
+│   └── (local dataset files; typically product and review CSVs)
 │
 ├── 01_exploratory_data_analysis.ipynb
 ├── 02_product_success_prediction.ipynb
 ├── 03_product_clustering.ipynb
-├── 04_price_vs_rating_regression.ipynb
+├── 04_price_vs_rating.ipynb
 ├── 05_hidden_gems_analysis.ipynb
 ├── 06_sentiment_analysis.ipynb
 │
-├── Report 01 EDA.pdf
-├── Report 01 EDA.pbix
-├── Report 04 Product categories.pdf
-├── Report 04 Product categories.pbix
-├── Report 05 Hidden Gems.pdf
-├── Report 05 Hidden Gems.pbix
+├── Reports pdf/
+│   ├── Report 01 EDA.pdf
+│   ├── Report 04 Product categories.pdf
+│   └── Report 05 Hidden Gems.pdf
+│
+├── Reports PowerBI/
+│   ├── Report 01 EDA.pbix
+│   ├── Report 04 Product categories.pbix
+│   └── Report 05 Hidden Gems.pbix
 │
 ├── Project-Outline.md
+├── README.md
 ├── requirements.txt
-└── README.md
+└── .gitignore
 ```
 
-> `data/` is git-ignored — download the dataset separately and place the CSVs there before running the notebooks.
+> `data/` is intended to hold the raw CSV files used by the notebooks. If the dataset is not already present locally, download it first and place the relevant files in this folder before executing the analysis.
 
 ## Notebooks
 
@@ -76,9 +82,9 @@ Running the analysis is only half the job — insights only create value once th
 
 | Notebook | PDF Report | Power BI File | Description |
 |---|---|---|---|
-| 01 - Exploratory Data Analysis | [Report 01 EDA.pdf](Report%2001%20EDA.pdf) | [Report 01 EDA.pbix](Report%2001%20EDA.pbix) | Dataset overview and key EDA insights across products and categories, packaged for stakeholders. |
-| 04 - Price vs Rating Regression | [Report 04 Product categories.pdf](Report%2004%20Product%20categories.pdf) | [Report 04 Product categories.pbix](Report%2004%20Product%20categories.pbix) | Category-level breakdown of pricing, ratings, and review volume across the product catalog. |
-| 05 - Hidden Gems Analysis | [Report 05 Hidden Gems.pdf](Report%2005%20Hidden%20Gems.pdf) | [Report 05 Hidden Gems.pbix](Report%2005%20Hidden%20Gems.pbix) | Highlights underrated, highly-rated products with low review volume as merchandising opportunities. |
+| 01 - Exploratory Data Analysis | [Report 01 EDA.pdf](Reports%20pdf/Report%2001%20EDA.pdf) | [Report 01 EDA.pbix](Reports%20PowerBI/Report%2001%20EDA.pbix) | Dataset overview and key EDA insights across products and categories, packaged for stakeholders. |
+| 04 - Price vs Rating Regression | [Report 04 Product categories.pdf](Reports%20pdf/Report%2004%20Product%20categories.pdf) | [Report 04 Product categories.pbix](Reports%20PowerBI/Report%2004%20Product%20categories.pbix) | Category-level breakdown of pricing, ratings, and review volume across the product catalog. |
+| 05 - Hidden Gems Analysis | [Report 05 Hidden Gems.pdf](Reports%20pdf/Report%2005%20Hidden%20Gems.pdf) | [Report 05 Hidden Gems.pbix](Reports%20PowerBI/Report%2005%20Hidden%20Gems.pbix) | Highlights underrated, highly-rated products with low review volume as merchandising opportunities. |
 
 ---
 
