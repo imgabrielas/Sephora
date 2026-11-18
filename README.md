@@ -53,7 +53,7 @@ Sephora/
 
 Full details for each notebook — objectives, candidate features, models, and evaluation metrics — are in [Project-Outline.md](Project-Outline.md).
 
-## NLP & Sentiment Analysis (Ongoing)
+## NLP & Sentiment Analysis
 
 This project also includes an active text-analysis track focused on customer reviews. The goal is to move beyond numerical ratings and interpret the actual language used by shoppers when describing products. I plan to analyze review text using a combination of traditional and modern NLP techniques, with a focus on extracting sentiment, key themes, and actionable product insights.
 
@@ -85,6 +85,9 @@ Running the analysis is only half the job — insights only create value once th
 | 01 - Exploratory Data Analysis | [Report 01 EDA.pdf](Reports%20pdf/Report%2001%20EDA.pdf) | [Report 01 EDA.pbix](Reports%20PowerBI/Report%2001%20EDA.pbix) | Dataset overview and key EDA insights across products and categories, packaged for stakeholders. |
 | 04 - Price vs Rating Regression | [Report 04 Product categories.pdf](Reports%20pdf/Report%2004%20Product%20categories.pdf) | [Report 04 Product categories.pbix](Reports%20PowerBI/Report%2004%20Product%20categories.pbix) | Category-level breakdown of pricing, ratings, and review volume across the product catalog. |
 | 05 - Hidden Gems Analysis | [Report 05 Hidden Gems.pdf](Reports%20pdf/Report%2005%20Hidden%20Gems.pdf) | [Report 05 Hidden Gems.pbix](Reports%20PowerBI/Report%2005%20Hidden%20Gems.pbix) | Highlights underrated, highly-rated products with low review volume as merchandising opportunities. |
+
+<img width="2000" height="1135" alt="image" src="https://github.com/user-attachments/assets/824bf181-e118-4cd2-8544-d65a4cea4d95" />
+
 
 ---
 
