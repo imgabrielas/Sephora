@@ -1,8 +1,11 @@
 # Sephora Product Analytics & Machine Learning
 
-**Status:** Ongoing Project
 
-A data science portfolio project built on the **Sephora Products & Reviews Dataset**. Rather than one large notebook, the work is split into **multiple Jupyter notebooks**, each tackling a different business problem on the same underlying data — covering EDA, classification, clustering, regression, business analytics, and an ongoing NLP/sentiment-analysis track.
+**Status:** 
+
+A data science portfolio project built on the **Sephora Products & Reviews Dataset**. Rather than one large notebook, the work is split into **multiple Jupyter notebooks**, each tackling a different business problem on the same underlying data — covering EDA, classification, clustering, regression, business analytics, and an NLP/sentiment-analysis.
+
+<img width="2000" height="1140" alt="image" src="https://github.com/user-attachments/assets/05365263-b3eb-4178-a1b1-aad9246ddd4a" />
 
 ## Repository Structure
 
@@ -49,9 +52,8 @@ Sephora/
 | 03 | Product Clustering | Unsupervised Learning | Can products be grouped into meaningful segments? |
 | 04 | Price vs. Rating Regression | Regression | Does paying more lead to higher satisfaction? |
 | 05 | Hidden Gems Analysis (bonus) | Business Analytics | Which underrated products deserve more visibility? |
-| 06 | Sentiment Analysis (ongoing) | NLP / Text Mining | How do customer reviews express sentiment, and what themes drive positive or negative feedback? |
+| 06 | Sentiment Analysis | NLP / Text Mining | How do customer reviews express sentiment, and what themes drive positive or negative feedback? |
 
-Full details for each notebook — objectives, candidate features, models, and evaluation metrics — are in [Project-Outline.md](Project-Outline.md).
 
 ## NLP & Sentiment Analysis
 
@@ -93,4 +95,4 @@ Running the analysis is only half the job — insights only create value once th
 
 ## Technologies
 
-Python, Pandas, NumPy, Matplotlib, Plotly, Scikit-learn, Jupyter, spaCy, Gensim, NLTK, and Hugging Face Transformers.
+Python, Pandas, NumPy, Matplotlib, Plotly, Scikit-learn, Jupyter.
